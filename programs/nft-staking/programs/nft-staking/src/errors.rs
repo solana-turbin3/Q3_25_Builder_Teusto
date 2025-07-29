@@ -6,4 +6,6 @@ pub enum StakeError {
     FreezePeriodNotPassed,
     #[msg("Max stake reached")]
     MaxStakeReached,
+    #[msg("Insufficient previous stakes")]
+    InsufficientPreviousStakes,
 }
