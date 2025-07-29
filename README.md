@@ -12,8 +12,9 @@ This repository is a monorepo using Rust's Cargo workspaces, inspired by best pr
 ├── Cargo.toml
 ├── anchor.toml
 ├── programs/
-│   ├── project-a/
-│   └── project-b/
+│   ├── nft-staking/
+│   ├── nft-marketplace/
+│   └── capstone/
 ├── libs/
 │   └── utils/
 ├── scripts/
@@ -23,6 +24,8 @@ This repository is a monorepo using Rust's Cargo workspaces, inspired by best pr
 | Name        | Description | Status  |
 | ----------- | ----------- | ------- |
 | nft-staking |             | 🛠️ WIP  |
+| nft-marketplace |             | 🟢 Done  |
+| capstone |             | 🛠️ WIP  |
 
 ## Contact
 Author: @teusto<br>
