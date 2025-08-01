@@ -6,7 +6,6 @@ pub mod state;
 pub mod instructions;
 
 use instructions::*;
-use state::*;
 
 declare_id!("FEUtZsWm99vwPCMuwPiKrBWg4TTSgTaqeBUsmEovhPJD");
 
@@ -21,5 +20,9 @@ pub mod escrow_program {
 
     pub fn take(ctx: Context<Take>) -> Result<()> {
         ctx.accounts.take()
+    }
+
+    pub fn refund(ctx: Context<Refund>) -> Result<()> {
+        ctx.accounts.refund()
     }
 }

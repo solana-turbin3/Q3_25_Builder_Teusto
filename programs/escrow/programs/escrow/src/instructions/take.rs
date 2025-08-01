@@ -103,10 +103,11 @@ impl<'info> Take<'info> {
             authority: self.escrow.to_account_info(),    // Escrow PDA authorizes
         };
 
-        // Create signer seeds for the escrow PDA
+        // Create signer seeds for the escrow PDA to authorize the transfer
+        let maker_key = self.maker.key();
         let signer_seeds: &[&[&[u8]]] = &[&[
             SEED.as_bytes(),
-            self.maker.key().as_ref(),
+            maker_key.as_ref(),
             &self.escrow.seed.to_le_bytes(),
             &[self.escrow.bump],
         ]];
