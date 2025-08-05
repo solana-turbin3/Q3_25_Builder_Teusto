@@ -26,6 +26,7 @@ This repository is a monorepo using Rust's Cargo workspaces, inspired by best pr
 | nft-staking |             | 🛠️ WIP  |
 | nft-marketplace |             | 🟢 Done  |
 | escrow |             | 🟢 Done  |
+| simple-vote |             | 🟢 Done  |
 | capstone |             | 🛠️ WIP  |
 
 ## Contact
