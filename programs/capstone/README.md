@@ -1,3 +1,0 @@
-Capstone Idea - HarvestMoon
-
-Description: 
