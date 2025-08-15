@@ -1,0 +1,3 @@
+[submodule "programs/capstone"]
+	path = programs/capstone
+	url = https://github.com/teusto/gossip.git
